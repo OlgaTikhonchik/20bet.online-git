@@ -1,0 +1,770 @@
+@media screen and (max-width: 1569px) {
+  .rating__table table {
+    flex-direction: column;
+  }
+
+  .rating__table table tbody {
+    width: 100%;
+  }
+  .table tr td:nth-child(3) {
+    margin-left: 0;
+  }
+}
+
+@media screen and (max-width: 1428px) {
+  .hero {
+    padding: 16px;
+  }
+.features__content {
+  flex-direction: column;
+}
+.footer__content {
+  max-width: 100%;
+}
+
+.banner__info {
+  background: rgba(0, 0, 0, 0.4);
+    border-radius: 12px;
+}
+
+.banner__backgroud img{
+  object-position: 1%;
+}
+.casino__list {
+  grid-template-columns: auto auto auto auto;
+}
+
+}
+
+@media screen and (max-width: 1379px) {
+  .features table {
+    flex-direction: column;
+  }
+
+  .hero__data {
+    background: rgba(0, 0, 0, 0.4);
+    border-radius: 12px;
+  }
+
+  .decor-background img{
+    object-position: 100%;
+  }
+
+  .features table tbody {
+    width: 100%;
+  }
+
+  .content__wrapper-page {
+    flex: 0 1 calc(100% - 240px - 10px);
+  }
+
+  .content__wrapper-page{
+    margin-right: 0;
+  }
+  .decor-background-live img{
+    object-position: 100%;
+  }
+}
+
+@media screen and (max-width: 1200px) {
+  .sidebar-left {
+    display: none;
+  }
+  .menu-review__content {
+    display: block;
+    padding: 0;
+    border-radius: 6px;
+  }
+
+  .menu-review-desk {
+    padding: 16px;
+  }
+
+  .menu-review__content > .menu-review__list.active {
+    display: block;
+  }
+
+  .main__wrap {
+    padding: 20px 10px 10px 10px;
+  }
+
+  .content__wrapper {
+    flex: 0 1 calc(100% - 240px - 10px);
+    margin: auto 20px 0 0;
+  }
+
+  .content__wrapper .content {
+    max-width: 100%;
+    margin-left: 0;
+    margin-right: 0;
+  }
+}
+
+@media screen and (max-width: 1189px) {
+ 
+
+  
+
+  .features__table td:last-child {
+    flex: 0 1 calc(100% - 32px);
+    white-space: nowrap;
+  }
+
+  table tr {
+    padding: 10px;
+  }
+
+  
+
+  .ratings__list img {
+    width: 18px;
+    height: 18px;
+  }
+}
+
+@media screen and (max-width: 1250px) {
+  .header__btn-menu.active {
+    background: #0d1d34;
+  }
+  .header__btn-menu {
+    display: block;
+  }
+  .header__btn-menu svg {
+    display: block;
+    margin: 0;
+  }
+  .header__btn-menu svg rect {
+    transform-origin: 50% 50%;
+    transition: all 0.5s;
+  }
+
+  .header__btn-menu.active svg rect:nth-child(1) {
+    x: -2px;
+    y: 6px;
+    width: 20px;
+    transform: rotate(225deg);
+  }
+
+  .header__btn-menu.active svg rect:nth-child(3) {
+    opacity: 0;
+  }
+
+  .header__btn-menu.active svg rect:nth-child(2) {
+    x: -2px;
+    y: 6px;
+    width: 20px;
+    transform: rotate(135deg);
+  }
+
+  .header__menu {
+    display: none;
+    position: fixed;
+    top: 70px;
+    left: 0;
+    width: 100%;
+    height: 0;
+    overflow: hidden;
+    background: #0d1d34;
+    text-align: center;
+    z-index: 100;
+    transition: height 0.5s ease, opacity 0.5s ease;
+    opacity: 0;
+    padding: 20px 50px;
+    overflow-y: auto;
+    display: block;
+  }
+
+  .header__menu.active {
+    display: block;
+    height: 100vh;
+    opacity: 1;
+  }
+
+  .header {
+    z-index: 101;
+  }
+
+  .header__menu ul {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+    margin-bottom: 20px;
+  }
+
+  .header__menu ul li + li {
+    margin-top: 5px;
+  }
+
+   .header__menu ul li a{
+    padding: 10px;
+   }
+
+  .menu ul li:not(:last-child) {
+    margin-right: 0;
+  }
+
+  .header__logo {
+    margin-right: 25px;
+  }
+
+  .hero__wrapper-page {
+    margin-left: 20px;
+    margin-right: 20px;
+  }
+}
+
+@media screen and (max-width: 1100px) {
+  .content__wrapper {
+    flex: 1 1 100%;
+    margin-right: 0;
+    max-width: 100%;
+  }
+
+  .features table {
+    flex-direction: row;
+  }
+
+  .features table tbody {
+    width: 100%;
+  }
+  .sidebar-right {
+    display: none;
+  }
+
+  .features__table td:last-child {
+    flex: 0 1 calc(100% - 52px);
+  }
+
+  .ratings__list img {
+    width: 24px;
+    height: 24px;
+  }
+
+  .bonuses__desc {
+    margin-top: -22px;
+  }
+}
+
+@media screen and (max-width: 809px) {
+  .features table {
+    flex-direction: column;
+  }
+
+  .features table tbody {
+    width: 100%;
+  }
+  .banner__backgroud img,
+  .background img {
+    object-position: 99%;
+  }
+
+  .banner__backgroud img{
+  object-position: 1%;
+}
+.casino__list {
+  grid-template-columns: auto auto auto ;
+}
+  
+}
+@media screen and (max-width: 800px) {
+  .ratings__list img {
+    width: 20px;
+    height: 20px;
+  }
+
+  .features {
+    display: block;
+  }
+
+  .features__info:first-child {
+    margin-bottom: 20px;
+  }
+
+  .features__table td:last-child {
+    flex: 0 1 calc(100% - 72px);
+  }
+
+  .banner__title {
+    font-size: 28px;
+  }
+}
+
+@media screen and (max-width: 750px) {
+  .ratings__list {
+    flex-direction: column;
+  }
+
+ .footer__menu {
+  justify-content: space-between;
+  flex-wrap: wrap;
+  gap: 20px;
+ }
+
+  .ratings__list img {
+    width: 24px;
+    height: 24px;
+  }
+
+  .ratings__button {
+    margin-left: auto;
+  }
+
+  .hero__title {
+    font-size: 28px;
+  }
+
+  .banner__title {
+    font-size: 24px;
+  }
+
+  .review__title,
+  .ratings__title,
+  .faq__title {
+    font-size: 28px;
+  }
+  .bonuses__desc {
+    padding: 0 18px 18px;
+  }
+
+  .decor-background-bonus img{object-position: 70%;}
+}
+
+@media screen and (max-width: 809px) {
+  .button__login {
+    display: none;
+  }
+
+  .header__button-menu > .button__login-menu {
+    display: inline-block;
+    background: #4da533;
+    margin: 0;
+  }
+
+  .button__login-menu:hover {
+    background: #ec622b;
+  }
+
+  .menu .button__singup {
+    display: none;
+  }
+
+  .header__button {
+    display: block;
+  }
+
+  .banner__logo {
+    margin-left: 0;
+  }
+  
+}
+
+@media screen and (max-width: 650px) {
+.bonuses__list {
+  grid-template-columns: repeat(1, 1fr);
+
+}
+}
+
+@media screen and (max-width: 664px) {
+  .button__singup {
+    display: none;
+  }
+
+  .header__content {
+    padding: 15px;
+  }
+  .menu .button__singup {
+    display: inline-block;
+    margin: 0;
+    margin-left: 10px;
+  }
+
+ 
+  .header__menu .header__button-menu {
+    display: flex;
+    flex-direction: column;
+
+    justify-content: center;
+    align-items: center;
+  }
+
+  .header__menu .button__menu {
+    display: inline-block;
+    margin-top: 20px;
+  }
+  .main.home {
+    display: block;
+  }
+  .ratings__img {
+    max-width: 100%;
+  }
+
+
+  .ratings__info {
+    flex-direction: column;
+    gap: 12px;
+  }
+  .ratings p {flex: 0;
+  margin-right: 0;}
+  .ratings__data {
+    flex: 0;
+    margin-left: 0;
+  }
+}
+
+@media screen and (max-width: 600px) {
+  .review__title,
+  .ratings__title,
+  .faq__title {
+    font-size: 24px;
+    line-height: 32px;
+    white-space: wrap;
+  }
+  .hero__title {
+    font-size: 24px;
+  }
+
+  .banner__backgroud img {
+    object-position: 80%;
+  }
+  .banner__backgroud img{
+  object-position: 1%;
+}
+
+  .banner__info {
+    width: 100%;
+  }
+  .rating__table img {
+    margin: 0;
+  }
+}
+
+@media screen and (max-width: 560px) {
+  .footer__menu {
+    flex-direction: column;
+    align-items: center;
+  }
+  .footer__menu li {
+    padding: 0;
+  }
+
+  .footer__menu ul {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .footer__menu div {
+    text-align: center;
+  }
+  .footer__menu .footer__info li::before {
+    display: none;
+  }
+
+  .footer__text {
+    text-align: center;
+    margin-right: 0;
+  }
+
+  .footer__wrapp {
+    flex-direction: column;
+
+    gap: 10px;
+  }
+
+  .casino__list {
+  grid-template-columns: auto auto ;
+}
+}
+
+@media screen and (max-width: 525px) {
+  .table tr td:nth-child(3) {
+    display: none;
+  }
+
+  .header__app span:last-child{
+    display: none;
+  }
+}
+@media screen and (max-width: 480px) {
+  .hero__wrapper {
+    position: relative;
+    max-width: 100%;
+    align-items: center;
+    flex-direction: column;
+    justify-content: center;
+  }
+
+  .header__app span:nth-child(3n) {
+    display: none;
+  }
+
+  .hero__img {
+    position: absolute;
+    opacity: 0.5;
+  }
+
+  .ratings__list img {
+    width: 16px;
+    height: 16px;
+  }
+
+  .hero__title {
+    z-index: 1;
+  }
+
+  .hero__button {
+    z-index: 1;
+  }
+
+  .features__table td:first-child {
+    flex: 0 1 45px;
+  }
+
+  .features__table td:last-child {
+    flex: 0 1 calc(100% - 45px);
+    word-wrap: break-word;
+    white-space: normal;
+  }
+
+  .footer__menu {
+    justify-content: space-between;
+  }
+
+  .footer__information {
+    display: flex;
+    flex-wrap: wrap;
+  }
+
+  .footer__information li {
+    margin-left: 24px;
+    margin-top: 24px;
+  }
+
+  .background img {
+    object-position: 80%;
+  }
+  .banner__backgroud img{
+  object-position: 1%;
+}
+.decor-background-bonus img{object-position: 65%;}
+
+  .hero__data {
+    width:100%;
+    max-width: 100%;
+  }
+}
+
+@media screen and (max-width: 468px) {
+  .header__flag span:last-child {
+    display: none;
+  }
+
+  .header__flag {
+    margin-right: 0;
+  }
+}
+
+@media screen and (max-width: 459px) {
+  .table tr td:nth-child(3) {
+    display: block;
+  }
+
+  .table tr td:nth-child(2) {
+    display: none;
+  }
+}
+
+@media screen and (max-width: 440px) {
+  .footer__menu {
+    display: block;
+    text-align: center;
+  }
+
+  .footer__menu li {
+    text-align: center;
+  }
+
+  .footer__menu > li:not(:last-child) {
+    margin-bottom: 16px;
+  }
+
+  .hero__data {
+   
+    text-align: center;
+  }
+      .features-table tr {
+        flex-direction: column;
+        text-align: center;
+      }
+table td:first-child,table td:last-child{
+  width: 100%;
+}
+
+  .ratings__button, .article .button{
+    min-width: 220px;
+  }
+  .hero__title {
+    text-align: center;
+  }
+
+  .hero__rating {
+    justify-content: center;
+  }
+
+  .article__button {
+    margin-left: auto;
+  }
+
+  h2, .title.high {
+    font-size: 28px;
+  }
+}
+
+@media screen and (max-width: 410px) {
+  .header__app {
+    display: none;}
+  }
+
+@media screen and (max-width: 399px) {
+ .hero__button {
+  min-width: 220px;
+ }
+
+  .footer__cards-list {
+    gap: 25px;
+  }
+
+  .casino__list {
+  grid-template-columns: auto  ;
+}
+}
+
+
+@media screen and (max-width: 370px) {
+  .hero__title {
+    font-size: 20px;
+  }
+
+  .header__app {
+    display: none;
+  }
+
+ 
+ .banner__button {
+  min-width: 220px;
+ }
+
+  .banner__backgroud img {
+    object-position: 75%;
+  }
+    .banner__backgroud img{
+  object-position: 1%;
+}
+
+  .ratings__list img {
+    width: 13px;
+    height: 13px;
+  }
+
+  .ratings__wrap {
+    white-space: nowrap;
+  }
+}
+
+@media screen and (max-width: 340px) {
+  .ratings__wrap img {
+    width: 11.5px;
+    height: 11.5px;
+  }
+
+  .ratings__wrap span {
+    font-weight: 500;
+    font-size: 14px;
+  }
+
+ 
+}
+
+/* ---------app-page------------ */
+
+@media screen and (max-width: 1200px) {
+  .content__wrapper-page {
+    flex: 1 1 100%;
+    margin: 0;
+  }
+}
+
+@media screen and (max-width: 809px) {
+  
+.banner__logo {
+  background: rgba(0, 0, 0, 0.4);
+  padding: 8px;
+  border-radius: 12px;
+}
+  .banner__app {
+    padding: 20px;
+    justify-content: center;
+  }
+}
+
+@media screen and (max-width: 664px) {
+  .main-page.home {
+    top: 75px;
+  }
+
+  .banner__content-app {
+    flex-direction: column;
+    gap: 16px;
+  }
+  .banner__logo {
+    flex: 0;
+  }
+  .decor-background-banner {
+    left: 0;
+  }
+}
+
+
+
+@media screen and (max-width: 550px) {
+  .banner__content-app {
+    flex-direction: column;
+    gap: 16px;
+  }
+  .banner__logo {
+    flex: 0;
+    margin-left: 0;
+  }
+}
+
+
+@media screen and (max-width: 440px) {
+  .breadcrumbs {
+    justify-content: center;
+  }
+}
+
+
+/* ------------page-bonus---------- */
+
+@media screen and (max-width: 1578px) {
+  .bonuses__item {
+    min-width: calc(50% - 10px);
+    min-height: max-content;
+    min-height: min-content;
+  }
+
+  .bonuses__img img {
+    width: 100%;
+  }
+}
+@media screen and (max-width: 692px) {
+  .bonuses__item {
+    width: 100%;
+  }
+}
+
+@media screen and (max-width: 1425px) {
+}
